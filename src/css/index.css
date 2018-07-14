@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Bungee|Lato:400,700,900');
+
+
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #6d6f7b;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  height: 100vh;
+  width: 100vw; 
+}
