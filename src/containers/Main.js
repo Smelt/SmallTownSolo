@@ -3,6 +3,7 @@ import { Switch, Route, withRouter, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import Homepage from "../components/Homepage";
 import AuthForm from "../components/AuthForm";
+import Distance from "../components/Distance";
 
 const Main = props => {
   const { authUser } = props;
@@ -10,6 +11,12 @@ const Main = props => {
     <div className="container">
       <Switch>
         <Route exact path="/" render={props => <Homepage {...props} />} />
+
+         < Route exact path = "/Distance"
+         render = {
+             props => < Distance { ...props
+             }
+             />} / >
         <Route
           exact
           path="/signin"
